@@ -167,4 +167,4 @@ if __name__ == '__main__':
         print('\n'.join('{}: {}'.format(*k) for k in enumerate(accounts, start=1)))
         LOGGER.info('------------')
     else:
-        error_and_exit('\n/!\ ERROR : Supplied OU does not exist.\n')
+        error_and_exit('\n/!ERROR : Supplied OU does not exist.\n')
